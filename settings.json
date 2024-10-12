@@ -1,0 +1,74 @@
+{
+  // Explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  // Workbench
+  "workbench.iconTheme": "symbols",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  // Editor
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": "400",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "all",
+  "editor.parameterHints.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.accessibilitySupport": "off",
+  "editor.rulers": [80, 120],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Terminal
+  "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04 (WSL)",
+  "terminal.integrated.defaultProfile.osx": "/bin/zsh",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  // Git
+  "git.ignoreMissingGitWarning": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  // GitLens
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": false,
+    "suppressLineUncommittedWarning": false
+  },
+  "gitlens.defaultDateFormat": null,
+  "gitlens.defaultTimeFormat": null,
+  "gitlens.defaultDateShortFormat": null,
+  // LiveServer
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveshare.connectionMode": "relay",
+  // Diff Editor
+  "diffEditor.ignoreTrimWhitespace": true,
+  // Security
+  "security.workspace.trust.untrustedFiles": "open",
+  // Symbols
+  "symbols.hidesExplorerArrows": false,
+  // Python + Notebook
+  "python.languageServer": "Pylance",
+  "notebook.formatOnSave.enabled": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "isort.args": ["--profile", "black"],
+  "black-formatter.args": ["--line-length", "119"],
+  "autoDocstring.docstringFormat": "numpy",
+  "autoDocstring.includeName": true,
+  "autoDocstring.guessTypes": true,
+  "autoDocstring.quoteStyle": "'''"
+}
