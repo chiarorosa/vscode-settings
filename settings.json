@@ -9,7 +9,8 @@
   "workbench.editor.labelFormat": "short",
   "workbench.colorTheme": "Catppuccin Mocha",
   // Editor
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Fira Code Retina",
+  //"editor.fontFamily": "Fira Code",
   "editor.fontWeight": "400",
   "editor.fontSize": 14,
   "editor.lineHeight": 22,
@@ -22,15 +23,15 @@
   "editor.rulers": [80, 120],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // Terminal
-  "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04 (WSL)",
+  "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04",
   "terminal.integrated.defaultProfile.osx": "/bin/zsh",
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "Fira Code Retina",
   "terminal.integrated.fontWeight": "400",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorWidth": 2,
   "terminal.integrated.gpuAcceleration": "off",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
   // Git
   "git.ignoreMissingGitWarning": true,
   "git.enableSmartCommit": true,
