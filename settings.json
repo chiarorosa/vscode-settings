@@ -22,6 +22,7 @@
   "editor.accessibilitySupport": "off",
   "editor.rulers": [80, 120],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
   // Terminal
   "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04",
   "terminal.integrated.defaultProfile.osx": "/bin/zsh",
